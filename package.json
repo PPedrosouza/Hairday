@@ -3,8 +3,9 @@
   "descrption": "Aplicação Web de agendamento de corte de cabelo.",
   "author": "Pedro Olegário",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack server",
+    "server": "json-server --watch server.json --port 3333"
   },
   "dependencies": {
     "hairday": "file:",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

@@ -33,7 +33,6 @@ export function schedulesShow({ dailySchedules }) {
 
             // adiciona o tempo, nome e ícone no item
             item.append(time, name, cancelIcon)
-            // console.log(item);
             
             // obtém somente a hora
             const hour = dayjs(schedule.when).hour()

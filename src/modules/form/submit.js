@@ -33,13 +33,12 @@ form.onsubmit = async (event) => {
 
         // recuperar somente a hora
         const [hour] = hourSelected.innerText.split(":")
-        console.log([hour]);
         
         // inserir a hora na data
         const when = dayjs(selectedDate.value).add(hour, "hour")
 
         // gerar um id
-        const id = new Date().getTime()
+        const id = String(new Date().getTime());
 
         // faz o agendamento
         await scheduleNew({

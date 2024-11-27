@@ -45,7 +45,7 @@ form.onsubmit = (event) => {
         
 
     } catch (error) {
-        alert("Não fio possível realizar o agendamento.")
+        alert("Não foi possível realizar o agendamento.")
         console.log(error);
 
     }

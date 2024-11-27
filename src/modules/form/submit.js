@@ -33,7 +33,8 @@ form.onsubmit = async (event) => {
 
         // recuperar somente a hora
         const [hour] = hourSelected.innerText.split(":")
-
+        console.log([hour]);
+        
         // inserir a hora na data
         const when = dayjs(selectedDate.value).add(hour, "hour")
 

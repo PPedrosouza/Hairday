@@ -1,3 +1,4 @@
+// biome-ignore lint/suspicious/noRedundantUseStrict: <explanation>
 "use strict"
 
 // configuração do dayjs

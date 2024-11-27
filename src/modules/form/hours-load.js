@@ -1,5 +1,6 @@
 import dayjs from 'dayjs';
 import { openingHours } from '../../utils/opening-hours.js'
+import { hoursClick } from '../form/hours-click.js'
 
 const hours = document.getElementById("hours")
 
